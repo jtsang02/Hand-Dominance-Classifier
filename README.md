@@ -1,7 +1,5 @@
 # MANU-465-EEG4
 
-Repository for MANU 465 Capstone Project - Group #9
-
 ## Project Description
 
 <p>The goal of this project was to be able to accurately predict if a person was using their dominant
@@ -21,7 +19,7 @@ participants self-identified as right or left handed and no ranking or gradient 
 
 The experiment consisted of subjects completing a complex and simple test using their
 dominant and non dominant hands. For these tests, subjects were asked to reprint a provided
-sentence, requiring some level of care, and scribble in a circle for 10 seconds, a much simpler task. We also recorded each subject’s gender, dominant hand, and whether english was their first language in the event that these parameters had an impact on our results. The testing of each subject took roughly five minutes to complete, including time for COVID-19 screening, cleaning the Muse 2 headset, and adding the additional features to each csv file. In total, roughly 90 participants were tested, totaling 365 unique csv files.
+sentence, requiring some level of care, and scribble in a circle for 10 seconds, a much simpler task. We also recorded each subject’s gender, dominant hand, and whether english was their first language in the event that these parameters had an impact on our results. The testing of each subject took roughly five minutes to complete, including time for COVID-19 screening, cleaning the Muse 2 headset, and adding the additional features to each .csv file. In total, roughly 90 participants were tested, totaling 365 unique .csv files.
 
 ## Results
 
@@ -37,6 +35,7 @@ sentence, requiring some level of care, and scribble in a circle for 10 seconds,
 | Naive Bayes | 72.58 %    |
 | Logistic Regression | 72.58 %    |
 | ANN | 69.35 %    |
+| CNN | 67.65%   |
 
 <p>From the results above, the classifier with the highest accuracy was the Non-Linear Support
 Vector Machine model with an accuracy of 80.65%. In general, all models performed decently
