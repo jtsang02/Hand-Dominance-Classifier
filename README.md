@@ -1,4 +1,4 @@
-# MANU-465-EEG4
+# Hand Dominance Classifier
 
 ## Project Description
 
